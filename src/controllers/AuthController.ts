@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { AuthService } from '../services/AuthService';
-import { createUserSchema, loginSchema } from '@weathertrigger/shared';
+import { createUserSchema, loginSchema } from '../schemas/user';
 import { AppError } from '../middleware/errorHandler';
 
 export class AuthController {

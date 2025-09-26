@@ -1,5 +1,5 @@
 import { query } from '../config/database';
-import { User } from '@weathertrigger/shared';
+import { User } from '../schemas/user';
 
 export interface CreateUserData {
   email: string;

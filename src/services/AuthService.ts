@@ -2,7 +2,7 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { UserModel, CreateUserData } from '../models/User';
 import { validateEnv } from '../config/env';
-import { User } from '@weathertrigger/shared';
+import { User } from '../schemas/user';
 import { AppError } from '../middleware/errorHandler';
 
 const env = validateEnv();
